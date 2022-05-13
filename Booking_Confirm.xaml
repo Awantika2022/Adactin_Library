@@ -1,0 +1,104 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Booking_Confirm" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="565.333333333333,627.333333333333" sap2010:WorkflowViewState.IdRef="Booking_Confirm_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Booking_Confirm" sap:VirtualizedContainerService.HintSize="476,562.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Adactin.com - Hotel Booking Confirmation" sap:VirtualizedContainerService.HintSize="434,470.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7c957a99-40ce-4fab-992d-b2a832489514" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,252.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'No thanks'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c957a99-40ce-4fab-992d-b2a832489514" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="334, 325, 133, 49" ElementType="Button" FriendlyName="'No thanks'" FullSelectorArgument="&lt;ctrl name='Save card?' role='alert' /&gt;&lt;ctrl name='No thanks' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Save card?' role='alert' /&gt;&lt;ctrl name='No thanks' role='push button' automationid='' check:text='No thanks' /&gt;" Guid="8cb031e7-6f75-4af4-ad23-4fd62d406384" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIkAAAA1CAYAAAB1LMjHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUxSURBVHhe7Zy9T+NIFMDv78g/QZeOjpJuOzq6dCmuSIGEKIhEQ4EiXeEC6USBEE2Kk67KShRssUJpQEI6cjrE5W4zdpwv8sFGOb17zx6Px46TiS7Jro+8nzRaPLZnnHk/zxtD1j8AwxhgSRgjLAljZKYkvdc+1P9qwO9/vMBvtWcu77hQjCnWvdeBjH6UREmE7XplMBzBZPKPrGXeKxTjwWAEDdEE23FlbciUJCSH2+rILWbTaLrtKVEiklCKEXZTbjGbSgMnitd+mHoiklBeohTDbDaDwRDqfwu5FZOEFjC8BmEmkwm68KfciklCK12GIXQXWBImEZaEMcKSMEZYEsYIS8IYYUkYIywJY4QlYYywJIwRlkTj7rwBmR8bULqXFd8K4cI+9ps5cSH8K0l6+K6SiIrwgkKlWH2TtTp9KJ98u8CxJMmkRpLMgQMPY7lDsR5JOjUXrDMB+Upf1viwJMmkQpKdAz84u5c9uSdgPZIEMuyzJAuRjpnEcqDkiSKgLCZyL8GSpIF0SHLegVHVhh38eetUH6jZkozqbbBOG7BN59N5hQbkL9sgplKWRhCMeMH+iVCSMbzc2LCHbdJ29siG8rO+ZhqDqLpwGOlfwGGlB/rXtGa1t31sw0f9ZkiSBOtysu3SvezbbcPPmCb1PkvV9X8xLDWSALzBreV/+MKnoX/ADElG9w7syoHaO3PAurAhJwOwddSEB3ncFN0OXF04UDj2j905tfFcPP+TP6OoGeZUQJaCjvvyR34drZnulIAdKGHd9ok8H/vfl/2H1x5rD0UrRtrTrjMuyRDblylYCdJtQYGOofZw5qV+D3FscrHZcB2kSBJEDYQNt95YJ0gybkNRDpYaQA88Fu9sqs/fhIFKQgVvRrrJHLvwIutgiP0FAXuUddjXUy12B+NM6J171kKFfFR7GHzVHnTBku1ZNVkVkST8HBEB8Mbw2jpvywpiDJ3uV/nz+kiXJAjVbWHdDg7GKEmSR8fbrwdDkRCoJEyS5Cr6/zn5qma4SMrr9uC20gTLEvABZ4cs9UtFSxlBe4ef9UBOVL1qT5Pk1wt/3y6lYLnbo+7CHh2DJX/dhqfuvLy6WlInSWT2eBxOB0jdUQkaJOX2BEySRGRAkoIarBe8dFduwe21FDRBkkXa864bZ5gP9C8u4K/q+gKemECn6qi0SmX7BFNWN37c6kmhJMizvGswb1vxAQ0kmTeTWDQLzWY5ScKZpfBZS3fBdS0jCZ57J2dSbw2UmDUxxTy34eonvw3TDbEK0ikJ3jUPl3IQZFEDusCaRF88JqEk+eW/SBLOdMVqcBe/qWOWlURobdGTXrCW6Yh+9KZQ44Ayyap1kVJJkHG4wo8PtMDHyWANEH+6yWoDOwvVL5b8OT5xlP3+Fw3q07W/nZFPQMUzTBPBtS4tCREKH6xN6Jq9x2zvacp/sqH9W4ZZcxWkVxIk+N3J9EBjfq61oIQDGciSPRBQuunNXbCG9OEjpozg3N3rrle7cFC988PfV+Qu2956gX5ejSSI9hhMTzmjmgsFFEP/vAVcwC72eZfju0rC/D9gSRgjLAljhCVhjLAkjBGWhDHCkjBGWBLGCEvCGGFJGCMsCWOEJWGMzJSEX6zHEHNfrOe9onOw7j9CM2ln7is66d3i9EZoZrP5Ihzo98MvcUUkIeiV0c2W/u1sZpNw3BbYzZbc8pmShCBRGnbTm3YoPzHvG4oxxfoLxjwuCJEoCUHvFqe8RAsYWulyeb+FYkyx1lOMzkxJGCaAJWEMAPwL8XBgkybcTVcAAAAASUVORK5CYII=" InformativeScreenshot="aa60805eda764b66f5815b4fe1fb2a53.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Save card?' /&gt;" SearchSteps="Selector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="190, 325, 133, 49" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;ctrl name='Save card?' role='alert' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Save card?' role='alert' /&gt;&lt;ctrl name='Save' role='push button' automationid='' check:text='Save' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIkAAAA1CAYAAAB1LMjHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPtSURBVHhe7Z0/a9tAGMb7OTp16Fzo4k+QPYOXNlOhS7YMhYYuKQVn7JQSqIfSkiEELx4CnmrIYA/BeIkhgz0YE0oU4lg2jmXLf97eSfcqJ1sXk2w+Pw/8IJLvZMT9cn9kS35BCLIkkARZGkiCLI1RklzFo4+/O/T22w29/HQNLEa2sWxr2eZJWZDk6m5K737eJR4M2I9se+mAngVJNg/aiZXB+rD5o61sCBOT5Ph8kFgJrB/SBU5MkvdZDDMgRLrAiUny5ismqSBEusCJSZJUGKwvHEgCjHAgCTDCgSTACAeSACMcSAKMcCAJMMKBJMAIB5IAIxxIAoxwIAkwwrFLkkyHspdjcv2ZOiOZGbndIe0nlQePwrFHkkyPSl11IiKeECUg2BrTSVId8CgcayRJVyfqLCaUP9I+zZa9S3MESZ4BxxpJ9hrqK3dtj1IJr4Onw7FGktT5WJ3FlEqnt4llAtS8xRlo8xZ/SvVqV8nVp5raXTuL101fqN5KiJhW+7bOhlTXjuUNJlQ661ghKseiiWuPivqcpC2GmFyCLPkRufL17pjqjmSi5i0zIUU4TO03VaNf9bW6bSqor37WymG5LSFmUNefRMeSx9aPtcpwLJJEIHuJBjd6GNfxaDejlTnqU3ZOnmioYilOR6rxR3TA5Q49agWFfMoG2wOqy83BiPa046fKflBK721WFY5dkihSQoSCo90WMNeQG7l7KjbFf353KlZAqoyMw18Ed1WvNKPK37AODzVesxeWiYY3Q+R7qvdbVThWSsKkcvzfT9SqhreKREOEvH7SHlOt4VHRUcNLJMk17VyyFLJ34aFmQsVjdXyWpDuifNVbpNxDT7IqnDjhubkN2QP0qRL0HPE5QzTcaJJEw4sYcvb57+6Qdvj1SBJtn2VwrJFk78KnUtmlDX1/Vswb1HDiXHbEPjWPkCugvCojL8LxLSa6JKL3yAe9x5QqzbBX4d4o4GhIoX8zqp/rt6Lc0HZ5SPkcb68uHHsk4d5ANBpfbY3ij+nkUJbrUIFXQGpF0hKCRPOSmCT6BToZn/7oE2Ahw8N7PqyW5PFiEq4wHGskSec9qrTnJqL+lFpNsbr5rpXN3lMtuq4xo1ZDrHaShhtJRpQNXxErn/uEax+3tFuVnxWpMjLymstln7ZjQq0mHOvnJOD5cCAJMMKBJMAIB5IAIxxIAoxwIAkwwoEkwAgHkgAjHEgCjHAgCTDCgSTACAeSACOcmCR4sB5gjA/WwyM6AWN8RGfhYphYAawf0gVOTBIZ9Cbgw6+OsiHMgiQNZ0KvPidXBvbz+otD/1ztTgORBUk4+CmT9eHJP2WCIPOBJMiSEP0H4d6IGNhmlnQAAAAASUVORK5CYII=" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="2ebeac0962d304031ea54aacfd7e0e35.png" Selector="&lt;html app='chrome.exe' title='Adactin.com - Hotel Booking Confirmation' /&gt;" Url="https://adactinhotelapp.com/BookingConfirm.php" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
